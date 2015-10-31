@@ -1,0 +1,29 @@
+{
+  "name": "social-media-counters",
+  "version": "0.0.1",
+  "description": "Count shares on social media",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "social",
+    "media",
+    "shares",
+    "counters",
+    "twitter",
+    "facebook",
+    "linkedin",
+    "google",
+    "plus"
+  ],
+  "author": "Nicolas Medda",
+  "license": "GPL",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "request": "^2.65.0"
+  }
+}
